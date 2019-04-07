@@ -9,7 +9,7 @@
 
     <link rel="icon" href="images/imp/ashrafiamasjid-logo.png">
 
-    <title>Ashrafia Masjid (Jeju) - Contact</title>
+    <title>Ashrafia Masjid (Jeju) - Activities</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -34,9 +34,9 @@
           <nav class="nav nav-masthead justify-content-center">
             <a class="nav-link" href="index.html">Home</a>
             <a class="nav-link" href="donations.html">Donations</a>
-            <a class="nav-link active" href="#">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
             <a class="nav-link" href="masajid.html">Masajid</a>
-            <a class="nav-link" href="activities.html">Activities</a>
+            <a class="nav-link active" href="#">Activities</a>
             <!-- <a class="nav-link" href="#">About</a> -->
             <!-- <a class="nav-link" href="ramazan.html"><i class="fa fa-calendar fa-lg"></i> Ramazan</a> -->
           </nav>
@@ -44,13 +44,16 @@
       </header>
 
       <main role="main" class="inner cover">
-        <h1 class="cover-heading" style="font-size: 1.6rem; ">Contacts</span></h1>
+        <h1 class="cover-heading" style="font-size: 1.6rem; ">Regular Activities - <span style="font-size: 1.3rem; ">(extra)</span></h1>
         <div class="lead" style="margin: 1rem 0 1rem 0; ">
-          <table class="table table-hover table-bordered table-condensed table-striped table-sm ">
+          <table class="table table-hover table-bordered table-condensed table-striped table-sm tb-activities">
             <thead class="thead-light">
               <tr class="active">
-                <th>Name</th>
-                <th>Contact</th>
+                <th>#</th>
+                <th>Activity</th>
+                <th>Days</th>
+                <th>Timing</th>
+                <th>Location</th>
               </tr>
             </thead>
             <tbody>
@@ -58,17 +61,61 @@
                 <td>Israr Ullah</td>
                 <th>+82-10-3055-1513</th>
               </tr> -->
+              <!-- <tr class="table-active">
+                <td class="row-number-tb">0</td>
+                <td>Ta'aleem</td>
+                <td class="text-left">after Isha, on Saturday</td>
+              </tr> -->
+
               <tr class="table-active">
-                <td>Shabir Ahmad</td>
-                <th>+82-10-5449-6744</th>
+                <td rowspan="2" class="row-number-tb">0</td>
+                <td rowspan="2">Ta'aleem</td>
+                <td>Daily</td>
+                <td>after Asr</td>
+                <td>Computer<br>department</td>
               </tr>
               <tr>
-                <td>Asif Mehmood</td>
-                <th>+82-10-3212-6804</th>
+                <td>Saturday</td>
+                <td>after Isha</td>
+                <td>Ashrafia Masjid</td>
+              </tr>
+              <tr>
+                <td class="row-number-tb">0</td>
+                <td>Shab-e-itwar</td>
+                <td>Saturday</td>
+                <td>after Isha</td>
+                <td>Masjid</td>
               </tr>
               <tr class="table-active">
-                <td>Shenawar Ali Khan</td>
-                <th>+82-10-2791-9899</th>
+                <td class="row-number-tb">0</td>
+                <td>6-number</td>
+                <td>Sunday</td>
+                <td>after Fajr</td>
+                <td>Masjid</td>
+              </tr>
+              <tr>
+                <td class="row-number-tb" rowspan="2">0</td>
+                <td rowspan="2">Gasht</td>
+                <td>Thurday</td>
+                <td>after Asr</td>
+                <td>Computer<br>department</td>
+              </tr>
+              <tr class="table-active">
+                <td>Saturday</td>
+                <td>after Zohr/Asr</td>
+                <td>Masjid</td>
+              </tr>
+              <tr>
+                <td class="row-number-tb" rowspan="2">0</td>
+                <td rowspan="2">Tajweed<br>(soon)</td>
+                <td>Mon-Fri</td>
+                <td>after Fajr</td>
+                <td>Btl3</td>
+              </tr>
+              <tr class="table-active">
+                <td>Saturday</td>
+                <td>after Maghrib</td>
+                <td>Masjid</td>
               </tr>
             </tbody>
           </table>
@@ -103,6 +150,10 @@
 
     <script type="text/javascript">
     	jQuery(document).ready(function(){
+        var counter = 1;
+        jQuery(".row-number-tb").each(function( index ) {
+          $( this ).text(counter++);
+        });
   			/*var dtToday = new Date();
   			jQuery("#dtToday").text(
   				dtToday.getDate() + " " + dtToday.getMonthName() + ", " + dtToday.getFullYear()
@@ -110,5 +161,10 @@
   		});
     </script>
   
+    <style type="text/css">
+      .tb-activities td{
+        vertical-align: middle;
+      }
+    </style>
 
 </body></html>
