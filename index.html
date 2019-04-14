@@ -64,7 +64,7 @@
               <tr class="table-active">
                 <td>Fajr - فجر</td>
                 <td>
-                  <span class="badge badge-light" id="fajr-time">5:20 AM</span>
+                  <span class="badge badge-light" id="fajr-time">0:00 AM</span>
                   <span>-</span>
                   <span class="badge badge-secondary">صبح صادق</span>
                   <span></span>
@@ -73,20 +73,20 @@
               </tr>
               <tr>
                 <td>Jumma - جمعہ</td>
-                <td><span class="badge badge-success" id="zohr-time">1:30 PM</span></td>
+                <td><span class="badge badge-success" id="jumma-time">0:00 PM</span></td>
               </tr>
               <tr>
                 <td>Zohr - ظہر</td>
-                <td><span class="badge badge-light" id="jumma-time">1:30 PM</span></td>
+                <td><span class="badge badge-light" id="zohr-time">0:00 PM</span></td>
               </tr>
               <tr>
                 <td>Asr - عصر</td>
-                <td><span class="badge badge-light" id="asr-time">5:45 PM</span></td>
+                <td><span class="badge badge-light" id="asr-time">0:00 PM</span></td>
               </tr>
               <tr>
                 <td>Maghrib - مغرب</td>
                 <td>
-                  <span class="badge badge-light" id="maghrib-time">7:15 PM</span>
+                  <span class="badge badge-light" id="maghrib-time">0:00 PM</span>
                   <span>-</span>
                   <span class="badge badge-secondary">غروب آفتاب</span>
                 </td>
@@ -97,7 +97,7 @@
                   <!-- <br>
                   <span class="text-warning" style="font-size: 15px;">Taraweeh Prayers - صلاة التراويح </span> -->
                 </td>
-                <td class="align-middle"><span class="badge badge-light" id="isha-time">9:00 PM</span></td>
+                <td class="align-middle"><span class="badge badge-light" id="isha-time">0:00 PM</span></td>
               </tr>
             </tbody>
           </table>
@@ -133,6 +133,11 @@
 
     <script type="text/javascript">
     	jQuery(document).ready(function(){
+        var dtSysDate = new Date();
+        var dtTodayStr = dtSysDate.toLocaleString("en-US", {timeZone: "Asia/Seoul"});
+  
+        var dtToday = new Date(dtTodayStr);
+  
   			var dtToday = new Date();
   			jQuery("#dtToday").text(
   				dtToday.getDate() + " " + dtToday.getMonthName() + ", " + dtToday.getFullYear()
