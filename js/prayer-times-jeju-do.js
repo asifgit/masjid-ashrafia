@@ -1,68 +1,148 @@
-var abc = 123;
-
 jQuery(document).ready(function(){
 
 	var salah_time = {
 
-		"January-Part-1": {},
-		"January-Part-2": {},
-		"January-Part-3": {},
-		
-		"February-Part-1": {},
-		"February-Part-2": {},
-		"February-Part-3": {},
+		/* January timings (2020) */
+		"January-Part-1": {
+			"fajr":"6:30 AM", "zohr": "1:30 PM", "asr":"4:10 PM", "maghrib":"5:36 PM", "isha":"7:30 PM"
+		},
+		"January-Part-2": {
+			"fajr":"6:30 AM", "zohr": "1:30 PM", "asr":"4:20 PM", "maghrib":"5:46 PM", "isha":"7:30 PM"
+		},
+		"January-Part-3": {
+			"fajr":"6:30 AM", "zohr": "1:30 PM", "asr":"4:30 PM", "maghrib":"5:57 PM", "isha":"7:40 PM"
+		},
 
-		"March-Part-1": {},
-		"March-Part-2": {},
-		"March-Part-3": {},
+		/* February timings (2020) */
+		"February-Part-1": {
+			"fajr":"6:30 AM", "zohr": "1:30 PM", "asr":"4:40 PM", "maghrib":"6:08 PM", "isha":"7:50 PM"
+		},
+		"February-Part-2": {
+			"fajr":"6:20 AM", "zohr": "1:30 PM", "asr":"4:50 PM", "maghrib":"6:18 PM", "isha":"8:00 PM"
+		},
+		"February-Part-3": {
+			"fajr":"6:10 AM", "zohr": "1:30 PM", "asr":"5:00 PM", "maghrib":"6:27 PM", "isha":"8:10 PM"
+		},
 
+		/* March timings (2020) */
+		"March-Part-1": {
+			"fajr":"6:00 AM", "zohr": "1:30 PM", "asr":"5:10 PM", "maghrib":"6:36 PM", "isha":"8:10 PM"
+		},
+		"March-Part-2": {
+			"fajr":"5:40 AM", "zohr": "1:30 PM", "asr":"5:10 PM", "maghrib":"6:45 PM", "isha":"8:20 PM"
+		},
+		"March-Part-3": {
+			"fajr":"5:30 AM", "zohr": "1:30 PM", "asr":"5:20 PM", "maghrib":"6:54 PM", "isha":"8:30 PM"
+		},
+
+
+
+
+		/**********************************************************************************************/
+		/*                (UP -> January-March, 2020) - (DOWN -> April-December, 2019)                */
+		/**********************************************************************************************/
+
+
+
+
+		/* April timings (2019) */
 		"April-Part-1": {
-			"fajr":"5:20 AM", "zohr": "1:30 PM", "asr":"5:45 PM", "maghrib":"7:15 PM", "isha":"9:00 PM"
+			"fajr":"5:20 AM", "zohr": "1:30 PM", "asr":"5:20 PM", "maghrib":"7:02 PM", "isha":"8:40 PM"
 		},
 		"April-Part-2": {
-			"fajr":"5:20 AM", "zohr": "1:30 PM", "asr":"5:45 PM", "maghrib":"7:15 PM", "isha":"9:00 PM"
+			"fajr":"5:00 AM", "zohr": "1:30 PM", "asr":"5:30 PM", "maghrib":"7:11 PM", "isha":"8:50 PM"
 		},
 		"April-Part-3": {
-			"fajr":"5:20 AM", "zohr": "1:30 PM", "asr":"5:45 PM", "maghrib":"7:15 PM", "isha":"9:00 PM"
+			"fajr":"4:40 AM", "zohr": "1:30 PM", "asr":"5:30 PM", "maghrib":"7:19 PM", "isha":"9:10 PM"
 		},
 
+		/* May timings (2019) */
 		"May-Part-1": {
-			"fajr":"5:20 AM", "zohr": "1:30 PM", "asr":"5:45 PM", "maghrib":"7:15 PM", "isha":"9:00 PM"
+			"fajr":"4:20 AM", "zohr": "1:30 PM", "asr":"5:40 PM", "maghrib":"7:28 PM", "isha":"9:20 PM"
 		},
 		"May-Part-2": {
-			"fajr":"5:20 AM", "zohr": "1:30 PM", "asr":"5:45 PM", "maghrib":"7:15 PM", "isha":"9:00 PM"
+			"fajr":"4:10 AM", "zohr": "1:30 PM", "asr":"5:40 PM", "maghrib":"7:36 PM", "isha":"9:30 PM"
 		},
 		"May-Part-3": {
-			"fajr":"5:20 AM", "zohr": "1:30 PM", "asr":"5:45 PM", "maghrib":"7:15 PM", "isha":"9:00 PM"
+			"fajr":"4:00 AM", "zohr": "1:30 PM", "asr":"5:50 PM", "maghrib":"7:44 PM", "isha":"9:40 PM"
 		},
 
-		"June-Part-1": {},
-		"June-Part-2": {},
-		"June-Part-3": {},
+		/* June timings (2019) */
+		"June-Part-1": {
+			"fajr":"3:50 AM", "zohr": "1:30 PM", "asr":"5:50 PM", "maghrib":"7:50 PM", "isha":"9:50 PM"
+		},
+		"June-Part-2": {
+			"fajr":"3:40 AM", "zohr": "1:30 PM", "asr":"5:50 PM", "maghrib":"7:54 PM", "isha":"9:50 PM"
+		},
+		"June-Part-3": {
+			"fajr":"3:45 AM", "zohr": "1:30 PM", "asr":"5:50 PM", "maghrib":"7:55 PM", "isha":"10:00 PM"
+		},
 
-		"July-Part-1": {},
-		"July-Part-2": {},
-		"July-Part-3": {},
+		/* July timings (2019) */
+		"July-Part-1": {
+			"fajr":"3:50 AM", "zohr": "1:30 PM", "asr":"5:50 PM", "maghrib":"7:55 PM", "isha":"9:50 PM"
+		},
+		"July-Part-2": {
+			"fajr":"4:00 AM", "zohr": "1:30 PM", "asr":"5:50 PM", "maghrib":"7:53 PM", "isha":"9:50 PM"
+		},
+		"July-Part-3": {
+			"fajr":"4:10 AM", "zohr": "1:30 PM", "asr":"5:50 PM", "maghrib":"7:48 PM", "isha":"9:40 PM"
+		},
 
-		"August-Part-1": {},
-		"August-Part-2": {},
-		"August-Part-3": {},
+		/* August timings (2019) */
+		"August-Part-1": {
+			"fajr":"4:20 AM", "zohr": "1:30 PM", "asr":"5:40 PM", "maghrib":"7:39 PM", "isha":"9:30 PM"
+		},
+		"August-Part-2": {
+			"fajr":"4:30 AM", "zohr": "1:30 PM", "asr":"5:40 PM", "maghrib":"7:29 PM", "isha":"9:10 PM"
+		},
+		"August-Part-3": {
+			"fajr":"4:40 AM", "zohr": "1:30 PM", "asr":"5:30 PM", "maghrib":"7:17 PM", "isha":"9:00 PM"
+		},
 
-		"September-Part-1": {},
-		"September-Part-2": {},
-		"September-Part-3": {},
+		/* September timings (2019) */
+		"September-Part-1": {
+			"fajr":"4:50 AM", "zohr": "1:30 PM", "asr":"5:20 PM", "maghrib":"7:02 PM", "isha":"8:40 PM"
+		},
+		"September-Part-2": {
+			"fajr":"5:00 AM", "zohr": "1:30 PM", "asr":"5:10 PM", "maghrib":"6:47 PM", "isha":"8:20 PM"
+		},
+		"September-Part-3": {
+			"fajr":"5:10 AM", "zohr": "1:30 PM", "asr":"5:00 PM", "maghrib":"6:32 PM", "isha":"8:00 PM"
+		},
 
-		"October-Part-1": {},
-		"October-Part-2": {},
-		"October-Part-3": {},
+		/* October timings (2019) */
+		"October-Part-1": {
+			"fajr":"5:20 AM", "zohr": "1:30 PM", "asr":"4:50 PM", "maghrib":"6:17 PM", "isha":"7:50 PM"
+		},
+		"October-Part-2": {
+			"fajr":"5:30 AM", "zohr": "1:30 PM", "asr":"4:30 PM", "maghrib":"6:03 PM", "isha":"7:40 PM"
+		},
+		"October-Part-3": {
+			"fajr":"5:40 AM", "zohr": "1:30 PM", "asr":"4:20 PM", "maghrib":"5:50 PM", "isha":"7:30 PM"
+		},
 
-		"November-Part-1": {},
-		"November-Part-2": {},
-		"November-Part-3": {},
+		/* November timings (2019) */
+		"November-Part-1": {
+			"fajr":"5:50 AM", "zohr": "1:30 PM", "asr":"4:10 PM", "maghrib":"5:37 PM", "isha":"7:20 PM"
+		},
+		"November-Part-2": {
+			"fajr":"6:00 AM", "zohr": "1:30 PM", "asr":"4:00 PM", "maghrib":"5:28 PM", "isha":"7:10 PM"
+		},
+		"November-Part-3": {
+			"fajr":"6:10 AM", "zohr": "1:30 PM", "asr":"3:50 PM", "maghrib":"5:22 PM", "isha":"7:10 PM"
+		},
 
-		"December-Part-1": {},
-		"December-Part-2": {},
-		"December-Part-3": {},
+		/* December timings (2019) */
+		"December-Part-1": {
+			"fajr":"6:10 AM", "zohr": "1:30 PM", "asr":"3:50 PM", "maghrib":"5:18 PM", "isha":"7:10 PM"
+		},
+		"December-Part-2": {
+			"fajr":"6:20 AM", "zohr": "1:30 PM", "asr":"3:50 PM", "maghrib":"5:21 PM", "isha":"7:10 PM"
+		},
+		"December-Part-3": {
+			"fajr":"6:30 AM", "zohr": "1:30 PM", "asr":"4:00 PM", "maghrib":"5:28 PM", "isha":"7:20 PM"
+		},
 
 	};
 
