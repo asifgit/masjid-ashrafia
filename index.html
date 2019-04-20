@@ -50,6 +50,7 @@
             <thead class="thead-light">
               <tr class="active">
                 <th>Prayer - الصلاة </th>
+                <th>Jama'at - الجماعت</th>
                 <th>Time - الوقت</th>
               </tr>
             </thead>
@@ -63,32 +64,35 @@
               </tr>-->
               <tr class="table-active">
                 <td>Fajr - فجر</td>
+                <td><span class="badge badge-info" id="fajr-time-j">0:00 PM</span></td>
                 <td>
-                  <span class="badge badge-light" id="fajr-time">0:00 AM</span>
-                  <span>-</span>
-                  <span class="badge badge-secondary">صبح صادق</span>
-                  <span></span>
-                </td>
+                  <span class="badge badge-info" id="fajr-time">0:00 AM</span>
+                  <!-- <span>-</span>
+                  <span class="badge badge-secondary">صبح صادق</span> -->
                 </td>
               </tr>
               <tr>
                 <td>Jumma - جمعہ</td>
-                <td><span class="badge badge-success" id="jumma-time">0:00 PM</span></td>
+                <td colspan="2"><span class="badge badge-success" id="zohrOrJumma-time-j">0:00 PM</span></td>
+                <!-- <td><span class="badge badge-success" id="jumma-time">0:00 PM</span></td> -->
               </tr>
               <tr>
                 <td>Zohr - ظہر</td>
+                <td><span class="badge badge-light" id="zohr-time-j">0:00 PM</span></td>
                 <td><span class="badge badge-light" id="zohr-time">0:00 PM</span></td>
               </tr>
               <tr>
                 <td>Asr - عصر</td>
+                <td><span class="badge badge-light" id="asr-time-j">0:00 PM</span></td>
                 <td><span class="badge badge-light" id="asr-time">0:00 PM</span></td>
               </tr>
               <tr>
                 <td>Maghrib - مغرب</td>
+                <td><span class="badge badge-info" id="maghrib-time-j">0:00 PM</span></td>
                 <td>
-                  <span class="badge badge-light" id="maghrib-time">0:00 PM</span>
-                  <span>-</span>
-                  <span class="badge badge-secondary">غروب آفتاب</span>
+                  <span class="badge badge-info" id="maghrib-time">0:00 PM</span>
+                  <!-- <span>-</span>
+                  <span class="badge badge-secondary">غروب آفتاب</span> -->
                 </td>
               </tr>
               <tr>
@@ -97,6 +101,7 @@
                   <!-- <br>
                   <span class="text-warning" style="font-size: 15px;">Taraweeh Prayers - صلاة التراويح </span> -->
                 </td>
+                <td><span class="badge badge-light" id="isha-time-j">0:00 PM</span></td>
                 <td class="align-middle"><span class="badge badge-light" id="isha-time">0:00 PM</span></td>
               </tr>
             </tbody>
@@ -131,7 +136,7 @@
     <script src="js/popper.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/custom.js"></script>
-    <script src="js/prayer-times-jeju-do.js"></script>
+    <script src="js/prayer-times-jeju-do-02.js"></script>
 
     <script type="text/javascript">
     	jQuery(document).ready(function(){
