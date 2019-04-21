@@ -582,8 +582,8 @@ jQuery(document).ready(function(){
 	var tZohr		= tConv24(salah_time[nowMonth][nowDayStr]["zohrOrJumma"]);
 	var tAsr		= tConv24(salah_time[nowMonth][nowDayStr]["asr"]);
 	var tMaghrib1	= tConv24(salah_time[nowMonth][nowDayStr]["maghrib"]);
-	var tMaghrib2	= addMiniutesToTime(nowDateStr, tMaghrib1, 20); 
 	var tIsha		= tConv24(salah_time[nowMonth][nowDayStr]["isha"]);
+	var tMaghrib2	= addMiniutesToTime(nowDateStr, tIsha, -30); 
 
 	// setting Jama'at times
 	jQuery("span#fajr-time-j").text(salah_time[key]["fajr"]);
