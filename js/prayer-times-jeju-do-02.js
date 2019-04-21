@@ -557,9 +557,6 @@ jQuery(document).ready(function(){
 	
 	var nowDate = new Date(nowDateStr);
 	var nowDay = nowDate.getDate();
-	nowDay = 29
-
-	var nowDayStr = "" + nowDay;
 	
 	var nowMonth = nowDate.getMonthName();
 	var nowyear = nowDate.getFullYear();
@@ -577,12 +574,12 @@ jQuery(document).ready(function(){
 		key += "Part-3";
 	}
 
-	var tSehr		= tConv24(salah_time[nowMonth][nowDayStr]["sehr"]);
-	var tSunrise	= tConv24(salah_time[nowMonth][nowDayStr]["sunrise"]);
-	var tZohr		= tConv24(salah_time[nowMonth][nowDayStr]["zohrOrJumma"]);
-	var tAsr		= tConv24(salah_time[nowMonth][nowDayStr]["asr"]);
-	var tMaghrib1	= tConv24(salah_time[nowMonth][nowDayStr]["maghrib"]);
-	var tIsha		= tConv24(salah_time[nowMonth][nowDayStr]["isha"]);
+	var tSehr		= tConv24(salah_time[nowMonth][nowDay]["sehr"]);
+	var tSunrise	= tConv24(salah_time[nowMonth][nowDay]["sunrise"]);
+	var tZohr		= tConv24(salah_time[nowMonth][nowDay]["zohrOrJumma"]);
+	var tAsr		= tConv24(salah_time[nowMonth][nowDay]["asr"]);
+	var tMaghrib1	= tConv24(salah_time[nowMonth][nowDay]["maghrib"]);
+	var tIsha		= tConv24(salah_time[nowMonth][nowDay]["isha"]);
 	var tMaghrib2	= addMiniutesToTime(nowDateStr, tIsha, -30); 
 
 	// setting Jama'at times
