@@ -464,18 +464,18 @@ jQuery(document).ready(function(){
 
 		/* May timings (2019) */
 		"May-Part-1": {
-			"fajr":"04:20 AM", "zohrOrJumma": "01:30 PM", "asr":"05:40 PM", "maghrib":"07:28 PM", "isha":"09:20 PM"
+			"fajr":"04:20 AM", "zohrOrJumma": "01:30 PM", "asr":"05:40 PM", "maghrib":"07:28 PM", "isha":"09:15 PM"
 		},
 		"May-Part-2": {
-			"fajr":"04:10 AM", "zohrOrJumma": "01:30 PM", "asr":"05:40 PM", "maghrib":"07:36 PM", "isha":"09:30 PM"
+			"fajr":"04:10 AM", "zohrOrJumma": "01:30 PM", "asr":"05:40 PM", "maghrib":"07:36 PM", "isha":"09:15 PM"
 		},
 		"May-Part-3": {
-			"fajr":"04:00 AM", "zohrOrJumma": "01:30 PM", "asr":"05:50 PM", "maghrib":"07:44 PM", "isha":"09:40 PM"
+			"fajr":"04:00 AM", "zohrOrJumma": "01:30 PM", "asr":"05:50 PM", "maghrib":"07:44 PM", "isha":"09:30 PM"
 		},
 
 		/* June timings (2019) */
 		"June-Part-1": {
-			"fajr":"03:50 AM", "zohrOrJumma": "01:30 PM", "asr":"05:50 PM", "maghrib":"07:50 PM", "isha":"09:50 PM"
+			"fajr":"03:50 AM", "zohrOrJumma": "01:30 PM", "asr":"05:50 PM", "maghrib":"07:50 PM", "isha":"09:30 PM"
 		},
 		"June-Part-2": {
 			"fajr":"03:40 AM", "zohrOrJumma": "01:30 PM", "asr":"05:50 PM", "maghrib":"07:54 PM", "isha":"09:50 PM"
