@@ -410,35 +410,35 @@ jQuery(document).ready(function(){
 
 
 		"January-Part-1": {
-			"fajr":"06:30 AM", "zohrOrJumma": "01:30 PM", "asr":"04:10 PM", "maghrib":"05:36 PM", "isha":"07:30 PM"
+			"fajr":"06:30 AM", "zohrOrJumma": "12:55 PM", "asr":"04:10 PM", "maghrib":"05:36 PM", "isha":"07:30 PM"
 		},
 		"January-Part-2": {
-			"fajr":"06:30 AM", "zohrOrJumma": "01:30 PM", "asr":"04:20 PM", "maghrib":"05:46 PM", "isha":"07:30 PM"
+			"fajr":"06:30 AM", "zohrOrJumma": "12:55 PM", "asr":"04:20 PM", "maghrib":"05:46 PM", "isha":"07:30 PM"
 		},
 		"January-Part-3": {
-			"fajr":"06:30 AM", "zohrOrJumma": "01:30 PM", "asr":"04:30 PM", "maghrib":"05:57 PM", "isha":"07:40 PM"
+			"fajr":"06:30 AM", "zohrOrJumma": "12:55 PM", "asr":"04:30 PM", "maghrib":"05:57 PM", "isha":"07:40 PM"
 		},
 
 		/* February timings (2020) */
 		"February-Part-1": {
-			"fajr":"06:30 AM", "zohrOrJumma": "01:30 PM", "asr":"04:40 PM", "maghrib":"06:08 PM", "isha":"07:50 PM"
+			"fajr":"06:30 AM", "zohrOrJumma": "12:55 PM", "asr":"04:40 PM", "maghrib":"06:08 PM", "isha":"07:50 PM"
 		},
 		"February-Part-2": {
-			"fajr":"06:20 AM", "zohrOrJumma": "01:30 PM", "asr":"04:50 PM", "maghrib":"06:18 PM", "isha":"08:00 PM"
+			"fajr":"06:20 AM", "zohrOrJumma": "12:55 PM", "asr":"04:50 PM", "maghrib":"06:18 PM", "isha":"08:00 PM"
 		},
 		"February-Part-3": {
-			"fajr":"06:10 AM", "zohrOrJumma": "01:30 PM", "asr":"05:00 PM", "maghrib":"06:27 PM", "isha":"08:10 PM"
+			"fajr":"06:10 AM", "zohrOrJumma": "12:55 PM", "asr":"05:00 PM", "maghrib":"06:27 PM", "isha":"08:10 PM"
 		},
 
 		/* March timings (2020) */
 		"March-Part-1": {
-			"fajr":"06:00 AM", "zohrOrJumma": "01:30 PM", "asr":"05:10 PM", "maghrib":"06:36 PM", "isha":"08:10 PM"
+			"fajr":"06:00 AM", "zohrOrJumma": "12:55 PM", "asr":"05:10 PM", "maghrib":"06:36 PM", "isha":"08:10 PM"
 		},
 		"March-Part-2": {
-			"fajr":"05:40 AM", "zohrOrJumma": "01:30 PM", "asr":"05:10 PM", "maghrib":"06:45 PM", "isha":"08:20 PM"
+			"fajr":"05:40 AM", "zohrOrJumma": "12:55 PM", "asr":"05:10 PM", "maghrib":"06:45 PM", "isha":"08:20 PM"
 		},
 		"March-Part-3": {
-			"fajr":"05:30 AM", "zohrOrJumma": "01:30 PM", "asr":"05:20 PM", "maghrib":"06:54 PM", "isha":"08:30 PM"
+			"fajr":"05:30 AM", "zohrOrJumma": "12:55 PM", "asr":"05:20 PM", "maghrib":"06:54 PM", "isha":"08:30 PM"
 		},
 
 
@@ -453,101 +453,101 @@ jQuery(document).ready(function(){
 
 		/* April timings (2019) */
 		"April-Part-1": {
-			"fajr":"05:20 AM", "zohrOrJumma": "01:30 PM", "asr":"05:20 PM", "maghrib":"07:02 PM", "isha":"08:40 PM"
+			"fajr":"05:20 AM", "zohrOrJumma": "12:55 PM", "asr":"05:20 PM", "maghrib":"07:02 PM", "isha":"08:40 PM"
 		},
 		"April-Part-2": {
-			"fajr":"05:00 AM", "zohrOrJumma": "01:30 PM", "asr":"05:30 PM", "maghrib":"07:11 PM", "isha":"08:50 PM"
+			"fajr":"05:00 AM", "zohrOrJumma": "12:55 PM", "asr":"05:30 PM", "maghrib":"07:11 PM", "isha":"08:50 PM"
 		},
 		"April-Part-3": {
-			"fajr":"04:40 AM", "zohrOrJumma": "01:30 PM", "asr":"05:30 PM", "maghrib":"07:19 PM", "isha":"09:10 PM"
+			"fajr":"04:40 AM", "zohrOrJumma": "12:55 PM", "asr":"05:30 PM", "maghrib":"07:19 PM", "isha":"09:10 PM"
 		},
 
 		/* May timings (2019) */
 		"May-Part-1": {
-			"fajr":"04:20 AM", "zohrOrJumma": "01:30 PM", "asr":"05:40 PM", "maghrib":"07:28 PM", "isha":"09:15 PM"
+			"fajr":"04:20 AM", "zohrOrJumma": "12:55 PM", "asr":"05:40 PM", "maghrib":"07:28 PM", "isha":"09:15 PM"
 		},
 		"May-Part-2": {
-			"fajr":"04:10 AM", "zohrOrJumma": "01:30 PM", "asr":"05:40 PM", "maghrib":"07:36 PM", "isha":"09:15 PM"
+			"fajr":"04:10 AM", "zohrOrJumma": "12:55 PM", "asr":"05:40 PM", "maghrib":"07:36 PM", "isha":"09:15 PM"
 		},
 		"May-Part-3": {
-			"fajr":"04:00 AM", "zohrOrJumma": "01:30 PM", "asr":"05:50 PM", "maghrib":"07:44 PM", "isha":"09:30 PM"
+			"fajr":"04:00 AM", "zohrOrJumma": "12:55 PM", "asr":"05:50 PM", "maghrib":"07:44 PM", "isha":"09:30 PM"
 		},
 
 		/* June timings (2019) */
 		"June-Part-1": {
-			"fajr":"03:50 AM", "zohrOrJumma": "01:30 PM", "asr":"05:50 PM", "maghrib":"07:50 PM", "isha":"09:30 PM"
+			"fajr":"03:50 AM", "zohrOrJumma": "12:55 PM", "asr":"05:50 PM", "maghrib":"07:50 PM", "isha":"09:30 PM"
 		},
 		"June-Part-2": {
-			"fajr":"03:40 AM", "zohrOrJumma": "01:30 PM", "asr":"05:50 PM", "maghrib":"07:54 PM", "isha":"09:50 PM"
+			"fajr":"03:40 AM", "zohrOrJumma": "12:55 PM", "asr":"05:50 PM", "maghrib":"07:54 PM", "isha":"09:50 PM"
 		},
 		"June-Part-3": {
-			"fajr":"03:45 AM", "zohrOrJumma": "01:30 PM", "asr":"05:50 PM", "maghrib":"07:55 PM", "isha":"100:00 PM"
+			"fajr":"03:45 AM", "zohrOrJumma": "12:55 PM", "asr":"05:50 PM", "maghrib":"07:55 PM", "isha":"100:00 PM"
 		},
 
 		/* July timings (2019) */
 		"July-Part-1": {
-			"fajr":"03:50 AM", "zohrOrJumma": "01:30 PM", "asr":"05:50 PM", "maghrib":"07:55 PM", "isha":"09:50 PM"
+			"fajr":"03:50 AM", "zohrOrJumma": "12:55 PM", "asr":"05:50 PM", "maghrib":"07:55 PM", "isha":"09:50 PM"
 		},
 		"July-Part-2": {
-			"fajr":"04:00 AM", "zohrOrJumma": "01:30 PM", "asr":"05:50 PM", "maghrib":"07:53 PM", "isha":"09:50 PM"
+			"fajr":"04:00 AM", "zohrOrJumma": "12:55 PM", "asr":"05:50 PM", "maghrib":"07:53 PM", "isha":"09:50 PM"
 		},
 		"July-Part-3": {
-			"fajr":"04:10 AM", "zohrOrJumma": "01:30 PM", "asr":"05:50 PM", "maghrib":"07:48 PM", "isha":"09:40 PM"
+			"fajr":"04:10 AM", "zohrOrJumma": "12:55 PM", "asr":"05:50 PM", "maghrib":"07:48 PM", "isha":"09:40 PM"
 		},
 
 		/* August timings (2019) */
 		"August-Part-1": {
-			"fajr":"04:20 AM", "zohrOrJumma": "01:30 PM", "asr":"05:40 PM", "maghrib":"07:39 PM", "isha":"09:30 PM"
+			"fajr":"04:20 AM", "zohrOrJumma": "12:55 PM", "asr":"05:40 PM", "maghrib":"07:39 PM", "isha":"09:30 PM"
 		},
 		"August-Part-2": {
-			"fajr":"04:30 AM", "zohrOrJumma": "01:30 PM", "asr":"05:40 PM", "maghrib":"07:29 PM", "isha":"09:10 PM"
+			"fajr":"04:30 AM", "zohrOrJumma": "12:55 PM", "asr":"05:40 PM", "maghrib":"07:29 PM", "isha":"09:10 PM"
 		},
 		"August-Part-3": {
-			"fajr":"04:40 AM", "zohrOrJumma": "01:30 PM", "asr":"05:30 PM", "maghrib":"07:17 PM", "isha":"09:00 PM"
+			"fajr":"04:40 AM", "zohrOrJumma": "12:55 PM", "asr":"05:30 PM", "maghrib":"07:17 PM", "isha":"09:00 PM"
 		},
 
 		/* September timings (2019) */
 		"September-Part-1": {
-			"fajr":"04:50 AM", "zohrOrJumma": "01:30 PM", "asr":"05:20 PM", "maghrib":"07:02 PM", "isha":"08:40 PM"
+			"fajr":"04:50 AM", "zohrOrJumma": "12:55 PM", "asr":"05:20 PM", "maghrib":"07:02 PM", "isha":"08:40 PM"
 		},
 		"September-Part-2": {
-			"fajr":"05:00 AM", "zohrOrJumma": "01:30 PM", "asr":"05:10 PM", "maghrib":"06:47 PM", "isha":"08:20 PM"
+			"fajr":"05:00 AM", "zohrOrJumma": "12:55 PM", "asr":"05:10 PM", "maghrib":"06:47 PM", "isha":"08:20 PM"
 		},
 		"September-Part-3": {
-			"fajr":"05:10 AM", "zohrOrJumma": "01:30 PM", "asr":"05:00 PM", "maghrib":"06:32 PM", "isha":"08:00 PM"
+			"fajr":"05:10 AM", "zohrOrJumma": "12:55 PM", "asr":"05:00 PM", "maghrib":"06:32 PM", "isha":"08:00 PM"
 		},
 
 		/* October timings (2019) */
 		"October-Part-1": {
-			"fajr":"05:20 AM", "zohrOrJumma": "01:30 PM", "asr":"04:50 PM", "maghrib":"06:17 PM", "isha":"07:50 PM"
+			"fajr":"05:20 AM", "zohrOrJumma": "12:55 PM", "asr":"04:50 PM", "maghrib":"06:17 PM", "isha":"07:50 PM"
 		},
 		"October-Part-2": {
-			"fajr":"05:30 AM", "zohrOrJumma": "01:30 PM", "asr":"04:30 PM", "maghrib":"06:03 PM", "isha":"07:40 PM"
+			"fajr":"05:30 AM", "zohrOrJumma": "12:55 PM", "asr":"04:30 PM", "maghrib":"06:03 PM", "isha":"07:40 PM"
 		},
 		"October-Part-3": {
-			"fajr":"05:40 AM", "zohrOrJumma": "01:30 PM", "asr":"04:20 PM", "maghrib":"05:50 PM", "isha":"07:30 PM"
+			"fajr":"05:40 AM", "zohrOrJumma": "12:55 PM", "asr":"04:20 PM", "maghrib":"05:50 PM", "isha":"07:30 PM"
 		},
 
 		/* November timings (2019) */
 		"November-Part-1": {
-			"fajr":"05:50 AM", "zohrOrJumma": "01:30 PM", "asr":"04:10 PM", "maghrib":"05:37 PM", "isha":"07:20 PM"
+			"fajr":"05:50 AM", "zohrOrJumma": "12:55 PM", "asr":"04:10 PM", "maghrib":"05:37 PM", "isha":"07:20 PM"
 		},
 		"November-Part-2": {
-			"fajr":"06:00 AM", "zohrOrJumma": "01:30 PM", "asr":"04:00 PM", "maghrib":"05:28 PM", "isha":"07:10 PM"
+			"fajr":"06:00 AM", "zohrOrJumma": "12:55 PM", "asr":"04:00 PM", "maghrib":"05:28 PM", "isha":"07:10 PM"
 		},
 		"November-Part-3": {
-			"fajr":"06:10 AM", "zohrOrJumma": "01:30 PM", "asr":"03:50 PM", "maghrib":"05:22 PM", "isha":"07:10 PM"
+			"fajr":"06:10 AM", "zohrOrJumma": "12:55 PM", "asr":"03:50 PM", "maghrib":"05:22 PM", "isha":"07:10 PM"
 		},
 
 		/* December timings (2019) */
 		"December-Part-1": {
-			"fajr":"06:10 AM", "zohrOrJumma": "01:30 PM", "asr":"03:50 PM", "maghrib":"05:18 PM", "isha":"07:10 PM"
+			"fajr":"06:10 AM", "zohrOrJumma": "12:55 PM", "asr":"03:50 PM", "maghrib":"05:18 PM", "isha":"07:10 PM"
 		},
 		"December-Part-2": {
-			"fajr":"06:20 AM", "zohrOrJumma": "01:30 PM", "asr":"03:50 PM", "maghrib":"05:21 PM", "isha":"07:10 PM"
+			"fajr":"06:20 AM", "zohrOrJumma": "12:55 PM", "asr":"03:50 PM", "maghrib":"05:21 PM", "isha":"07:10 PM"
 		},
 		"December-Part-3": {
-			"fajr":"06:30 AM", "zohrOrJumma": "01:30 PM", "asr":"04:00 PM", "maghrib":"05:28 PM", "isha":"07:20 PM"
+			"fajr":"06:30 AM", "zohrOrJumma": "12:55 PM", "asr":"04:00 PM", "maghrib":"05:28 PM", "isha":"07:20 PM"
 		},
 
 	};
@@ -581,11 +581,20 @@ jQuery(document).ready(function(){
 	var tAsr		= tConv24(salah_time[nowMonth][nowDay]["asr"]);
 	var tMaghrib1	= tConv24(salah_time[nowMonth][nowDay]["maghrib"]);
 	var tIsha		= tConv24(salah_time[nowMonth][nowDay]["isha"]);
+
+	var tZohr1		= addMiniutesToTime(nowDateStr, tZohr, -10); 
+	var tZohr2		= addMiniutesToTime(nowDateStr, tZohr, -2); 
+	var tZohr3		= addMiniutesToTime(nowDateStr, tZohr, 0); 
+	var tZohr4		= addMiniutesToTime(nowDateStr, tZohr, 5); 
 	var tMaghrib2	= addMiniutesToTime(nowDateStr, tIsha, -30); 
 
 	// setting Jama'at times
 	jQuery("span#fajr-time-j").text(salah_time[key]["fajr"]);
-	jQuery("span#zohr-time-j, span#zohrOrJumma-time-j").text(salah_time[key]["zohrOrJumma"]);
+	jQuery("span#zohr-time-j").text(salah_time[key]["zohrOrJumma"]);
+	jQuery("span#zohrOrJumma-time-j-1").text(salah_time[key]["zohrOrJumma"]);
+	jQuery("span#zohrOrJumma-time-j-2").text(salah_time[key]["zohrOrJumma"]);
+	jQuery("span#zohrOrJumma-time-j-3").text(salah_time[key]["zohrOrJumma"]);
+	jQuery("span#zohrOrJumma-time-j-4").text(salah_time[key]["zohrOrJumma"]);
 	jQuery("span#asr-time-j").text(salah_time[key]["asr"]);
 	jQuery("span#maghrib-time-j").text(addMiniutesToTime(nowDateStr,tMaghrib1,1));
 	jQuery("span#isha-time-j").text(salah_time[key]["isha"]);

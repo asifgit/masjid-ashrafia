@@ -46,7 +46,7 @@
       <main role="main" class="inner cover">
         <h1 class="cover-heading" style="font-size: 1.6rem; ">Jeju Prayer Timings - <span id="dtToday" style="font-size: 1.3rem; ">26 February, 1991</span></h1>
         <div class="lead" style="margin: 1rem 0 1rem 0; ">
-          <table class="table table-hover table-bordered table-condensed table-striped table-sm ">
+          <table class="table table-hover table-bordered table-condensed table-striped table-sm tb-namaz">
             <thead class="thead-light">
               <tr class="active">
                 <th>Prayer - الصلاة </th>
@@ -73,7 +73,29 @@
               </tr>
               <tr>
                 <td>Jumma - جمعہ</td>
-                <td colspan="2"><span class="badge badge-success" id="zohrOrJumma-time-j">0:00 PM</span></td>
+                <td colspan="2">
+                  <span class="badge">
+                    <table class="table-hover table-bordered table-condensed table-striped table-sm text-justify">
+                      <tr>
+                        <td>english statement</td>
+                        <td><span class="badge badge-info" id="zohrOrJumma-time-j-1">0:00 AM</span></td>
+                      </tr>
+                      <tr>
+                        <td>second adhan</td>
+                        <td><span class="badge badge-primary" id="zohrOrJumma-time-j-2">0:00 AM</span></td>
+                      </tr>
+                      <tr>
+                        <td>arabic statement</td>
+                        <td><span class="badge badge-success" id="zohrOrJumma-time-j-3">0:00 AM</span></td>
+                      </tr>
+                      <tr>
+                        <td>jama'at</td>
+                        <td><span class="badge badge-success" id="zohrOrJumma-time-j-4">0:00 AM</span></td>
+                      </tr>
+                    </table>
+                    <!-- 0:00 PM -->
+                  </span>
+                </td>
                 <!-- <td><span class="badge badge-success" id="jumma-time">0:00 PM</span></td> -->
               </tr>
               <tr>
@@ -151,6 +173,12 @@
   			);
   		});
     </script>
+
+    <style type="text/css">
+      .tb-namaz td{
+        vertical-align: middle;
+      }
+    </style>
   
 
 </body></html>
