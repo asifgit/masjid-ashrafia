@@ -582,19 +582,20 @@ jQuery(document).ready(function(){
 	var tMaghrib1	= tConv24(salah_time[nowMonth][nowDay]["maghrib"]);
 	var tIsha		= tConv24(salah_time[nowMonth][nowDay]["isha"]);
 
-	var tZohr1		= addMiniutesToTime(nowDateStr, tZohr, -10); 
-	var tZohr2		= addMiniutesToTime(nowDateStr, tZohr, -2); 
-	var tZohr3		= addMiniutesToTime(nowDateStr, tZohr, 0); 
-	var tZohr4		= addMiniutesToTime(nowDateStr, tZohr, 5); 
+	var tJummaJ		= tConv24J(salah_time[key]["zohrOrJumma"], false);
+	var tJummaJ1	= addMiniutesToTimeJ(nowDateStr, tJummaJ, 25); 
+	var tJummaJ2	= addMiniutesToTimeJ(nowDateStr, tJummaJ, 33); 
+	var tJummaJ3	= addMiniutesToTimeJ(nowDateStr, tJummaJ, 35); 
+	var tJummaJ4	= addMiniutesToTimeJ(nowDateStr, tJummaJ, 40); 
 	var tMaghrib2	= addMiniutesToTime(nowDateStr, tIsha, -30); 
 
 	// setting Jama'at times
 	jQuery("span#fajr-time-j").text(salah_time[key]["fajr"]);
 	jQuery("span#zohr-time-j").text(salah_time[key]["zohrOrJumma"]);
-	jQuery("span#zohrOrJumma-time-j-1").text(salah_time[key]["zohrOrJumma"]);
-	jQuery("span#zohrOrJumma-time-j-2").text(salah_time[key]["zohrOrJumma"]);
-	jQuery("span#zohrOrJumma-time-j-3").text(salah_time[key]["zohrOrJumma"]);
-	jQuery("span#zohrOrJumma-time-j-4").text(salah_time[key]["zohrOrJumma"]);
+	jQuery("span#zohrOrJumma-time-j-1").text(tJummaJ1);
+	jQuery("span#zohrOrJumma-time-j-2").text(tJummaJ2);
+	jQuery("span#zohrOrJumma-time-j-3").text(tJummaJ3);
+	jQuery("span#zohrOrJumma-time-j-4").text(tJummaJ4);
 	jQuery("span#asr-time-j").text(salah_time[key]["asr"]);
 	jQuery("span#maghrib-time-j").text(addMiniutesToTime(nowDateStr,tMaghrib1,1));
 	jQuery("span#isha-time-j").text(salah_time[key]["isha"]);
@@ -618,6 +619,16 @@ function tConv24(time24) {
   return ts;
 };
 
+function tConv24J(time24) {
+  var ts = time24;
+  var H = +ts.substr(0, 2);
+  var h = (H % 12) || 12;
+  h = padValue(h,"0");  // leading 0 at the left for 1 digit hours
+  var ampm = " PM";
+  ts = h + ts.substr(2, 3) + ampm;
+  return ts;
+};
+
 function addMiniutesToTime(tNowDateStr, tempTimeOld, mins){
 	var tempTime = new Date(tNowDateStr);
     tempTime.setHours(parseInt(tempTimeOld[0]+tempTimeOld[1])+12);
@@ -626,6 +637,20 @@ function addMiniutesToTime(tNowDateStr, tempTimeOld, mins){
     var tempTimehour = ("0" + (tempTime.getHours() % 12)).slice(-2);
     var tempTimemins = ("0" + tempTime.getMinutes()).slice(-2);
     var tempTimeampm = (tempTime.getHours() >= 12 ? "PM" : "AM");
+    
+    tempTimeFinal = tempTimehour + ":" + tempTimemins + " " + tempTimeampm;
+    return tempTimeFinal;
+
+}
+
+function addMiniutesToTimeJ(tNowDateStr, tempTimeOld, mins){
+	var tempTime = new Date(tNowDateStr);
+    tempTime.setHours(parseInt(tempTimeOld[0]+tempTimeOld[1])+12);
+    tempTime.setMinutes(parseInt(tempTimeOld[3]+tempTimeOld[4]));
+    tempTime.setMinutes(tempTime.getMinutes()+mins);
+    var tempTimehour = ("0" + (tempTime.getHours() % 12)).slice(-2);
+    var tempTimemins = ("0" + tempTime.getMinutes()).slice(-2);
+    var tempTimeampm = "PM";
     
     tempTimeFinal = tempTimehour + ":" + tempTimemins + " " + tempTimeampm;
     return tempTimeFinal;
